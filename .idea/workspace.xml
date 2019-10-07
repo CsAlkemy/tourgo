@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="438c8205-d4bd-4f3b-9ae4-fb9ac1b23967" name="Default Changelist" comment="" />
+    <list default="true" id="438c8205-d4bd-4f3b-9ae4-fb9ac1b23967" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,8 +69,16 @@
       <option name="presentableId" value="Default" />
       <updated>1570422304338</updated>
       <workItem from="1570422307015" duration="519000" />
-      <workItem from="1570422912678" duration="5732000" />
+      <workItem from="1570422912678" duration="5847000" />
     </task>
+    <task id="LOCAL-00001" summary="commit working !">
+      <created>1570430815383</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1570430815383</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,5 +94,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit working !" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit working !" />
   </component>
 </project>
