@@ -1,5 +1,5 @@
-import {Default, Email, Enum, Format, IgnoreProperty, Property, PropertyType} from "@tsed/common";
-import {Indexed, Model, ObjectID, Ref, Schema} from "@tsed/mongoose";
+import {Email, Enum, Property, PropertyType, Status} from "@tsed/common";
+import {Indexed, Model, ObjectID} from "@tsed/mongoose";
 import {Types} from "mongoose";
 
 
@@ -17,10 +17,13 @@ export class User {
 	_id: Types.ObjectId;
 
 	@Property()
-	name: string;
+	company: string;
 
 	@Property()
-	designation: string;
+	firstName: string;
+
+	@Property()
+	lastName: string;
 
 	@Property()
 	password: string;
@@ -31,5 +34,6 @@ export class User {
 
 	@PropertyType(Boolean)
 	flag: boolean;
+
 
 }

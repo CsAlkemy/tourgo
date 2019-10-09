@@ -1,0 +1,74 @@
+mixin header
+	-
+		let $__taxRates={};
+		$SESSION.taxRates.forEach(value => {
+		$__taxRates[value._id]={
+		rate:value.rate,
+		percent:value.percent,
+		name:value.name
+		}
+		});
+	head
+		meta(http-equiv="Content-Type" content="text/html; charset=UTF-8")
+		meta(http-equiv="X-UA-Compatible" content="IE=edge")
+		meta(name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui")
+		meta(name="description" content="Developer:Brinta.me,brrinta,brrinta@gmail.com")
+		meta(name="keywords" content="brrinta,s brinta,brinta,brinta developer,brinta web developer")
+		link(rel='shortcut icon', type='image/x-icon', href='/favicon.ico')
+		meta(name="author" content="brrinta")
+		title #{title ? title + process.env.APP_NAME : process.env.APP_NAME}
+		link(rel="shortcut icon", type="image/x-icon", href="/images/icon/ebs.svg")
+		link(href='/plugins/bootstrap/css/bootstrap.min.css', rel="stylesheet")
+		link(href="/plugins/daterangepicker/daterangepicker.css", rel="stylesheet")
+		link#themeLink(href=($SESSION.company.settings && $SESSION.company.settings.darkTheme ? '/css/theme.dark.css' : '/css/theme.css'), rel="stylesheet",
+			darkLink="/css/theme.dark.css", normalLink="/css/theme.css")
+		link#colorSchemaLink(href=($SESSION.company.settings ? $SESSION.company.settings.colorSchema : '/css/colors/red-dark.css'), rel='stylesheet')
+		link(href='/plugins/toastr/toastr.min.css', rel="stylesheet")
+		link(href='/plugins/pace/pace.css', rel='stylesheet')
+		link(href='/css/common.css', rel='stylesheet')
+		//pageCss
+		each script in __pageScript
+			each css in script.css
+				link(href=css rel='stylesheet')
+		script.
+			var notifications = !{JSON.stringify(notifications ? notifications : [])};
+			var globalSetting = {
+				baseUrl: '!{makeUrl("")}',
+				makeUrl: function (uri) {
+					return '!{makeUrl('')}' + uri;
+				},
+				tax: !{JSON.stringify($__taxRates)},
+				settings: {
+					language: !{JSON.stringify($SESSION.company.settings.language)},
+					rowPerPage: !{JSON.stringify($SESSION.company.settings.rowPerPage)},
+					dateFormat: !{JSON.stringify($SESSION.company.settings.dateFormat)},
+					timeFormat: !{JSON.stringify($SESSION.company.settings.timeFormat)},
+					dateTimeFormat: !{JSON.stringify($SESSION.company.settings.dateFormat)} + " "
+						+ !{JSON.stringify($SESSION.company.settings.timeFormat)},
+					timeZone: !{JSON.stringify($SESSION.company.settings.timeZone)},
+					imageSize: !{JSON.stringify($SESSION.company.settings.imageSize)},
+					decimalPoint: !{JSON.stringify($SESSION.company.settings.decimalPoint)},
+					currency: !{JSON.stringify($SESSION.company.settings.currency)},
+				},
+				currencyFormat: function (value) {
+					value = parseFloat(value).toFixed(globalSetting.settings.decimalPoint);
+					if (globalSetting.settings.currency.position < 0) {
+						return globalSetting.settings.currency.symbol + "" + value;
+					} else {
+						return value + "" + globalSetting.settings.currency.symbol;
+					}
+				},
+				getCreationTime: function (value) {
+					return new Date(parseInt(value.toString().substring(0, 8), 16) * 1000);
+				},
+				numberFormat: function (value) {
+					return parseFloat(value).toFixed(globalSetting.settings.decimalPoint);
+				},
+				dbDateTimeFormatter: function (dateTimeString) {
+					return moment(dateTimeString, [globalSetting.settings.dateFormat + ' ' + globalSetting.settings.timeFormat]).toDate();
+
+				},
+				excludeCurrencyFormat: function (text) {
+					return Number(text.replace(globalSetting.settings.currency.symbol, ""));
+				}
+			};

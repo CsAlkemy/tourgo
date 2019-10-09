@@ -1,8 +1,10 @@
-import {Controller, Get, Post, Req, Res} from "@tsed/common";
+import {Controller, Get, Post, Req, Res, Session, UseBefore} from "@tsed/common";
 import BaseController from "../Core/BaseController";
 import {Mongo} from "../services/Mongo";
 import {User} from "../models/User";
 import {Notification, NotificationType} from "../config/Notification";
+
+const bcrypt = require("bcrypt");
 
 @Controller("/")
 export class Home extends BaseController {
@@ -16,25 +18,30 @@ export class Home extends BaseController {
         this.config.render = "index";
         await this.render(req, res);
     }
-
+    @Get("/")
     @Get("/admin-login")
     @Post("/admin-login")
-    async login(@Res() res: Res, @Req() req: Req) {
+    async login(@Res() res: Res, @Req() req: Req, @Session("user") session:any) {
         if (req.method == 'POST') {
             let {email, password} = req.body;
-            let user = await this.mongo.UserService.findOne({
+            let User:User = await this.mongo.UserService.findOne({
                 email: email,
-                password: password
             });
-            if (user) {
-                if (user.flag === true) {
-                    if (user.designation === "doctor") {
-						return res.redirect("/doctor");
-                    }
+
+            if(User){
+                if(await bcrypt.compareSync(password, User.password)){
+                    session=User;
+
+                    this.config.render="index";
+                    await this.render(req,res);
+                    console.log(session);
+                }else {
+                    this.config.render="apply";
+                    await this.render(req,res);
+
                 }
-            } else {
-                this.config.render = "";
-                await this.render(req, res);
+            } else{
+                console.log("not user");
             }
 
         } else {
@@ -47,12 +54,13 @@ export class Home extends BaseController {
     @Post("/admin-apply")
     async apply(@Res() res: Res, @Req() req: Req) {
         if (req.method == 'POST') {
-            let {name, email, password, designation} = req.body;
+            let {company,firstName, lastName, email, password} = req.body;
             let user = new User();
-            user.name = name;
+            user.company = company;
+            user.firstName = firstName;
+            user.lastName = lastName;
             user.email = email;
-            user.password = password;
-            user.designation = designation;
+            user.password = bcrypt.hashSync(password, 12);
             user.flag = false;
             let data = new this.mongo.UserService(user);
             await data.save();
@@ -62,7 +70,7 @@ export class Home extends BaseController {
 				title: "Sign-up success"
 			};
 			this.config.notification.push(notification);
-			return res.redirect("/login");
+			return res.redirect("/admin-login");
         } else {
             this.config.render = "apply";
             await this.render(req, res);

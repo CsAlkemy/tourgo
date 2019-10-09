@@ -28,7 +28,7 @@ dt.config();
 		// `${rootDir}/converters/**/*.ts`
 	],
 	mongoose: {
-		url: "mongodb://127.0.0.1:27017/clinic",
+		url: "mongodb://127.0.0.1:27017/tourgo",
 		connectionOptions: {
 			useNewUrlParser: true,
 			useCreateIndex: true,
@@ -37,7 +37,7 @@ dt.config();
 	},
 	mount: {
 		"/": `${rootDir}/controllers/*`,
-		'/doctor': `${rootDir}/controllers/Doctor/**`,
+		'/Admin': `${rootDir}/controllers/Home/**`,
 	},
 	httpPort: process.env.PORT,
 	viewsDir: `${rootDir}/views`,
