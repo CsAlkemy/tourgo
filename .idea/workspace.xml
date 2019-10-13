@@ -2,172 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="438c8205-d4bd-4f3b-9ae4-fb9ac1b23967" name="Default Changelist" comment="landing and login">
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/about.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/about_background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/box.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/details.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/dot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/elements.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/fact_background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/find.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/home.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/last.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/last_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/latest_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/latest_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/marker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/milestone_1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/milestone_2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/milestone_3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/milestone_4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/news.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/news_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/news_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/news_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/newsletter.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/offer_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/offer_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/offers.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/play.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/popular_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/popular_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/popular_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/popular_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/popular_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/popular_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/popular_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/popular_8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/quote.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/search_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/service_1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/service_2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/service_3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/sidebar_featured_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/sidebar_featured_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/sidebar_featured_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/sidebar_search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/special_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/special_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/special_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/special_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/special_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/special_slider.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/top_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/top_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/top_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/top_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/images/video.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/js/about_custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/js/contact_custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/js/elements_custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/js/jquery-3.2.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/js/news_custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/js/offers_custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/pages/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/pages/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/pages/elements.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/pages/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/pages/news.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/pages/offers.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/plugins/Isotope/isotope.pkgd.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/plugins/greensock/ScrollToPlugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/plugins/greensock/TimelineMax.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/plugins/greensock/TweenMax.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/plugins/greensock/animation.gsap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/plugins/progressbar/progressbar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/plugins/scrollmagic/ScrollMagic.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/styles/about_responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/styles/about_styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/styles/contact_responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/styles/contact_styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/styles/elements_responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/styles/elements_styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/styles/news_responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/styles/news_styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/styles/offers_responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/tourgo/styles/offers_styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/landing/main_styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/landing/responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/landing/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/plugins/bootstrap/js/popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/plugins/easing/easing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome/less/screen-reader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/plugins/font-awesome/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/plugins/owl.carousel/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/plugins/parallax-js-master/parallax.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/Dashboard.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/middlewares/SessionCheck.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/layout/footer.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/layout/header.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/layout/layout.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/theme/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/SessionData.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/admin/Dashboard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/partner/Dashboard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/admin/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/layout/navbar.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/partner/dashboard/index.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/bg-banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/doctor1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/doctor2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/doctor3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/doctor4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/thumb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/custom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/jquery.easing.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/tourgo/images/home.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/tourgo/images/home.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/tourgo/images/last.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/tourgo/images/last.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/tourgo/images/top_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/tourgo/images/top_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/tourgo/images/top_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/tourgo/images/top_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/tourgo/images/top_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/tourgo/images/top_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/tourgo/images/top_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/tourgo/images/top_4.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/icons/themify-icons/ie7/ie7.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/icons/themify-icons/ie7/ie7.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/landing/main_styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/landing/main_styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/Config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/Config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/Dashboard.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controllers/Home.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/Home.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/middlewares/ErrorHandler.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/middlewares/ErrorHandler.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/middlewares/SessionCheck.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/middlewares/SessionCheck.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/User.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/User.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/home/apply.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/home/apply.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/home/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/home/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/home/login.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/home/login.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/layout/footer.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/layout/footer.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/layout/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/layout/header.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/layout/layout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/layout/layout.pug" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -178,8 +44,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="Pug File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -193,18 +59,20 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/plugins/bootstrap/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/views/partner/dashboard" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Users\csalk\WebstormProjects\tourgo\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\csalk\WebstormProjects\tourgo\public\plugins" />
-      <recent name="C:\Users\csalk\WebstormProjects\tourgo\public\js\landing" />
-      <recent name="C:\Users\csalk\WebstormProjects\tourgo\public\css\landing" />
-      <recent name="C:\Users\csalk\WebstormProjects\tourgo\public\css" />
+      <recent name="C:\Users\csalk\WebstormProjects\tourgo\src\views\admin" />
+      <recent name="C:\Users\csalk\WebstormProjects\tourgo\src\views\layout" />
+      <recent name="C:\Users\csalk\WebstormProjects\tourgo\public\assets\theme" />
+      <recent name="C:\Users\csalk\WebstormProjects\tourgo\src\views\partner\dashboard" />
+      <recent name="C:\Users\csalk\WebstormProjects\tourgo\src\controllers\admin" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\csalk\WebstormProjects\tourgo\src\views\partner\dashboard" />
       <recent name="C:\Users\csalk\WebstormProjects\tourgo\public\plugins\bootstrap\js" />
       <recent name="C:\Users\csalk\WebstormProjects\tourgo\public\plugins\owl.carousel" />
       <recent name="C:\Users\csalk\WebstormProjects\tourgo\public\css" />
@@ -253,7 +121,15 @@
       <workItem from="1570422912678" duration="8775000" />
       <workItem from="1570502443036" duration="11922000" />
       <workItem from="1570523074193" duration="6431000" />
-      <workItem from="1570588811638" duration="5847000" />
+      <workItem from="1570588811638" duration="6092000" />
+      <workItem from="1570674810545" duration="4583000" />
+      <workItem from="1570713250415" duration="8050000" />
+      <workItem from="1570763663094" duration="6246000" />
+      <workItem from="1570809704872" duration="14831000" />
+      <workItem from="1570868502175" duration="6816000" />
+      <workItem from="1570882461330" duration="42000" />
+      <workItem from="1570882771492" duration="14000" />
+      <workItem from="1570893882370" duration="6487000" />
     </task>
     <task id="LOCAL-00001" summary="commit working !">
       <created>1570430815383</created>
@@ -269,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570430911097</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="landing and login">
+      <created>1570604179807</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1570604179807</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

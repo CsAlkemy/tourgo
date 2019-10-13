@@ -37,9 +37,9 @@ head
 								li.main_nav_item
 									a(href="#") Offers
 								li.main_nav_item
-									a(href="#") News
+									a(href="#contact") News
 								li.main_nav_item
-									a(href="/admin-login") login
+									a(href="/login") login
 						// Search
 						.search
 							form.search_form(action="#")
@@ -109,7 +109,7 @@ head
 					.find_title.text-center Find the Adventure of a lifetime
 				.col-12
 					.find_form_container
-						form#find_form.find_form.d-flex.flex-md-row.flex-column.align-items-md-center.align-items-start.justify-content-md-between.justify-content-start.flex-wrap(action="#")
+						form#find_form.find_form.d-flex.flex-md-row.flex-column.align-items-md-center.align-items-start.justify-content-md-between.justify-content-start.flex-wrap(action="/contact")
 							.find_item
 								div Destination:
 								input.destination.find_input(type="text" required="required" placeholder="Keyword here")
@@ -138,7 +138,7 @@ head
 			.row
 				.col
 					.section_title.text-center
-						h2 Top destinations in Europe
+						h2 Recommendations for you
 						div take a look at these offers
 			.row.top_content
 				.col-lg-3.col-md-6.top_col
@@ -148,8 +148,12 @@ head
 							.top_item_image
 								img(src="assets/tourgo/images/top_1.jpg" alt="https://unsplash.com/@sgabriel")
 							.top_item_content
-								.top_item_price From $890
-								.top_item_text Paris, France
+					br
+					.top_item_price.text-dark From $150
+					.top_item_text.text-dark Standard Double Room
+					br
+					.button.button_4.elements_button.btn_custom
+						a.text-center(href="offers.html") Book Now
 				.col-lg-3.col-md-6.top_col
 					// Top Destination Item
 					.top_item
@@ -157,8 +161,12 @@ head
 							.top_item_image
 								img(src="assets/tourgo/images/top_2.jpg" alt="https://unsplash.com/@jenspeter")
 							.top_item_content
-								.top_item_price From $890
-								.top_item_text Italian Riviera
+					br
+					.top_item_price.text-dark From $100
+					.top_item_text.text-dark Standard Single
+					br
+					.button.button_4.elements_button.btn_custom
+						a.text-center(href="offers.html") Book Now
 				.col-lg-3.col-md-6.top_col
 					// Top Destination Item
 					.top_item
@@ -166,8 +174,12 @@ head
 							.top_item_image
 								img(src="assets/tourgo/images/top_3.jpg" alt="https://unsplash.com/@anikindimitry")
 							.top_item_content
-								.top_item_price From $890
-								.top_item_text Cinque Terre
+					br
+					.top_item_price.text-dark From $300
+					.top_item_text.text-dark Superior Room
+					br
+					.button.button_4.elements_button.btn_custom
+						a.text-center(href="offers.html") Book Now
 				.col-lg-3.col-md-6.top_col
 					// Top Destination Item
 					.top_item
@@ -175,8 +187,12 @@ head
 							.top_item_image
 								img(src="assets/tourgo/images/top_4.jpg" alt="https://unsplash.com/@hellolightbulb")
 							.top_item_content
-								.top_item_price From $890
-								.top_item_text Santorini, Greece
+					br
+					.top_item_price.text-dark From $180
+					.top_item_text.text-dark Junior Suite
+					br
+					.button.button_4.elements_button.btn_custom
+						a.text-center(href="offers.html") Book Now
 	// Last
 	.last
 		// Image by https://unsplash.com/@thanni
@@ -188,31 +204,31 @@ head
 				.col-lg-6.last_col
 					.last_item
 						.last_item_content
-							.last_subtitle maldive
+							.last_subtitle Dhaka visa
 							.last_percent 50%
 							.last_title Last Minute Offer
 							.last_text
 								| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pulvinar sed mauris eget tincidunt. Sed lectus nulla, tempor vel.
 							.button.last_button
-								a(href="offers.html") See Offer
+								a.text-white(href="offers.html") See Offer
 				.col-lg-6.last_col
 					.last_item
 						.last_item_content
-							.last_subtitle bali
+							.last_subtitle bali visa
 							.last_percent 38%
 							.last_title Last Minute Offer
 							.last_text
 								| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pulvinar sed mauris eget tincidunt. Sed lectus nulla, tempor vel.
 							.button.last_button
-								a(href="offers.html") See Offer
+								a.text-white(href="offers.html") See Offer
 	// Popular
 	.popular
 		.container
 			.row
 				.col
 					.section_title.text-center
-						h2 Popular destinations in 2018
-						div take a look at these offers
+						h2 Recommended Hotels
+						div take a look at those
 			.row
 				.col
 					.popular_content.d-flex.flex-md-row.flex-column.flex-wrap.align-items-md-center.align-items-start.justify-content-md-between.justify-content-start
@@ -221,57 +237,57 @@ head
 							a(href="offers.html")
 								img(src="assets/tourgo/images/popular_1.jpg" alt="image by Egzon Bytyqi")
 								.popular_item_content
-									.popular_item_price From $890
-									.popular_item_title Turkey
+									.popular_item_price From $353
+									.popular_item_title Sheraton New York Times Square Hotel
 						// Popular Item
 						.popular_item
 							a(href="offers.html")
 								img(src="assets/tourgo/images/popular_2.jpg" alt="https://unsplash.com/@michael75")
 								.popular_item_content
-									.popular_item_price From $890
-									.popular_item_title Hawai
+									.popular_item_price From $399
+									.popular_item_title Westin at Times Square New York
 						// Popular Item
 						.popular_item
 							a(href="offers.html")
 								img(src="assets/tourgo/images/popular_3.jpg" alt="https://unsplash.com/@sapegin")
 								.popular_item_content
 									.popular_item_price From $890
-									.popular_item_title Ireland
+									.popular_item_title The Westin
 						// Popular Item
 						.popular_item
 							a(href="offers.html")
 								img(src="assets/tourgo/images/popular_4.jpg" alt="https://unsplash.com/@kensuarez")
 								.popular_item_content
 									.popular_item_price From $890
-									.popular_item_title Thailand
+									.popular_item_title The Westin
 						// Popular Item
 						.popular_item
 							a(href="offers.html")
 								img(src="assets/tourgo/images/popular_5.jpg" alt="https://unsplash.com/@noahbasle")
 								.popular_item_content
 									.popular_item_price From $890
-									.popular_item_title Croatia
+									.popular_item_title The Westin
 						// Popular Item
 						.popular_item
 							a(href="offers.html")
 								img(src="assets/tourgo/images/popular_6.jpg" alt="https://unsplash.com/@seb")
 								.popular_item_content
 									.popular_item_price From $890
-									.popular_item_title Bali
+									.popular_item_title The Westin
 						// Popular Item
 						.popular_item
 							a(href="offers.html")
 								img(src="assets/tourgo/images/popular_7.jpg" alt="https://unsplash.com/@nevenkrcmarek")
 								.popular_item_content
 									.popular_item_price From $890
-									.popular_item_title France
+									.popular_item_title The Westin
 						// Popular Item
 						.popular_item
 							a(href="offers.html")
 								img(src="assets/tourgo/images/popular_8.jpg" alt="https://unsplash.com/@bergeryap87")
 								.popular_item_content
 									.popular_item_price From $890
-									.popular_item_title Vietnam
+									.popular_item_title The Westin
 	// Special
 	.special
 		.container

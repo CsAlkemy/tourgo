@@ -113,7 +113,7 @@ p a:hover::after
 }
 ::selection
 {
-	background: rgba(254, 60, 82, 0.8);
+	background:#0b97c4;
 	color: #FFFFFF;
 }
 p::selection
@@ -1147,11 +1147,34 @@ section
 	height: 56px;
 	background: #131a2f;
 }
+.btn_custom{
+	display: inline-block;
+	background: transparent;
+	border:#0f0f0f solid;
+	width: 100%;
+	color: #0a0a0a;
+	height: 56px;
+}
+.btn_custom:hover{
+	display: inline-block;
+	border:#0f0f0f solid;
+	background: #131a2f;
+	width: 100%;
+	height: 56px;
+}
 .button a
 {
 	display: block;
 	font-size: 16px;
-	color: #FFFFFF;
+	color: #0a0a0a;
+	font-weight: 500;
+	line-height: 56px;
+}
+.button a:hover
+{
+	display: block;
+	font-size: 16px;
+	color: white;
 	font-weight: 500;
 	line-height: 56px;
 }

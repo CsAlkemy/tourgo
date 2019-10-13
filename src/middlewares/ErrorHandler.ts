@@ -25,3 +25,11 @@ export class ErrorHandler extends GlobalErrorHandlerMiddleware {
 		return super.use(err, req, res);
 	}
 }
+
+@Middleware()
+export class NotFoundMiddleware {
+	use(
+		@Res() response: Express.Response
+	) {
+	}
+}

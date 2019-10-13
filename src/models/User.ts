@@ -1,6 +1,7 @@
 import {Email, Enum, Property, PropertyType, Status} from "@tsed/common";
 import {Indexed, Model, ObjectID} from "@tsed/mongoose";
 import {Types} from "mongoose";
+import {UserType} from "../config/Config";
 
 
 @Model({
@@ -32,8 +33,14 @@ export class User {
 	@Email()
 	email: string;
 
+	@Enum(UserType)
+	userType : UserType;
+
 	@PropertyType(Boolean)
-	flag: boolean;
+	isAdmin: boolean;
+
+
+
 
 
 }

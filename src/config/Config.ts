@@ -58,7 +58,11 @@ export class CustomField {
 	searchable: boolean;
 	alias: boolean;
 }
-
+export enum UserType {
+	ADMIN,
+	PARTNER,
+	USER
+}
 export namespace BreadCrumb {
 
 	export class Menu {

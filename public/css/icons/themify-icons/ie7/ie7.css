@@ -760,7 +760,7 @@
 .ti-layout-media-overlay-alt-2 {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe6fd;');
 }
-.ti-layout-media-left-alt {
+. ti-layout-media-left-alt {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe6fe;');
 }
 .ti-layout-media-left {

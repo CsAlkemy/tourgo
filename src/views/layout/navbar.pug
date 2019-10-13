@@ -1,0 +1,69 @@
+mixin navbar
+
+	header
+		// Navbar
+		nav.py-3.navbar.navbar-expand-lg.navbar-dark.navColor.lighten-1
+			a.navbar-brand(style="text-align: left;" href="#") Tourgo.
+			button.navbar-toggler(type="button" data-toggle="collapse" data-target="#navbarSupportedContent-555" aria-controls="navbarSupportedContent-555" aria-expanded="false" aria-label="Toggle navigation")
+				span.navbar-toggler-icon
+			#navbarSupportedContent-555.collapse.navbar-collapse
+				ul.navbar-nav.mr-auto
+					li.nav-item.dropdown
+						a#navbarDropdownMenuLink-555.nav-link.dropdown-toggle(data-toggle="dropdown" aria-haspopup="true" aria-expanded="false")
+							| Dropdown
+						.dropdown-menu.dropdown-secondary(aria-labelledby="navbarDropdownMenuLink-555")
+							a.dropdown-item(href="#") Action
+							a.dropdown-item(href="#") My Profile
+							a.dropdown-item(href="/logout") logout
+				ul.navbar-nav.ml-auto.nav-flex-icons
+					li.nav-item
+						a.nav-link.waves-effect.waves-light
+					li.nav-item.avatar.dropdown
+						a#navbarDropdownMenuLink-55.nav-link.dropdown-toggle(data-toggle="dropdown" aria-haspopup="true" aria-expanded="false")
+							img.rounded-circle.z-depth-0(src="img/logo.png" style="height: 35px; width: 35px ;" alt="avatar image")
+						.dropdown-menu.dropdown-menu-lg-right.dropdown-secondary(aria-labelledby="navbarDropdownMenuLink-55")
+							a.dropdown-item(href="#") Action
+							a.dropdown-item(href="#") My Profile
+							a.dropdown-item(href="#") logout
+		// /.Navbar
+		// Sidebar
+		.sidebar-fixed.position-fixed
+			.collapse.Sidebar-collaps
+			a.logo-wrapper.waves-effect
+				img.img-fluid(src="img/logo.png" alt="")
+			.list-group.list-group-flush
+				a.list-group-item.active.waves-effect(href="#")
+					i.fas.fa-chart-pie.mr-3
+					| Dashboard
+				a.list-group-item.list-group-item-action.waves-effect(href="")
+					i.fas.fa-user.mr-3
+					| Profile
+				a.list-group-item.list-group-item-action.waves-effect(href="#")
+					i.fas.fa-table.mr-3
+					| Tables
+				a.list-group-item.list-group-item-action.waves-effect(href="#")
+					i.fas.fa-map.mr-3
+					| Maps
+				a.list-group-item.list-group-item-action.waves-effect(href="#")
+					i.fas.fa-money-bill-alt.mr-3
+					| Orders
+		// Sidebar
+	// Main Navigation
+	// Main layout
+	main.pt-4.mx-lg-5
+		.container-fluid.mt-1
+			// Heading
+			.card.mb-3.wow.fadeIn
+				.card-body.d-sm-flex.justify-content-between
+					h4.mb-2.mb-sm-0.pt-1
+						a(href="#") Dashboard
+						span /
+						span
+			// Heading
+			// Copyright
+			.footer
+				| © 2019 Copyright:
+				a(href="#")  Tourgo
+			// /.Copyright
+			// /.Footer
+	block content

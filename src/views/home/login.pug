@@ -328,7 +328,7 @@ body
         .container
             h1 Tourgo
             br
-            form#loginform.form-horizontal.form-material.bg-light.shadow.p-md-5.p-4.mx-3.mx-md-auto(action='/admin-login', novalidate='', method='post', accept-charset='utf-8' )
+            form#loginform.form-horizontal.form-material.bg-light.shadow.p-md-5.p-4.mx-3.mx-md-auto(action='/login', novalidate='', method='post', accept-charset='utf-8' )
                 h3.box-title.m-b-20 Sign In
                 .form-group
                     .col-xs-12
@@ -353,7 +353,7 @@ body
                         | Don't have an account?
                         a.text-info.m-l-5(href='/admin-apply')
                             b Apply
-            form#recoverform.form-horizontal.form-material.bg-light.shadow.p-md-5.p-4.mx-3.mx-md-auto(action='/admin-login')
+            form#recoverform.form-horizontal.form-material.bg-light.shadow.p-md-5.p-4.mx-3.mx-md-auto(action='/login')
                 .form-group
                     .col-xs-12.text-center
                         h3 Recover Password

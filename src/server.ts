@@ -4,6 +4,7 @@ import {Env} from "@tsed/core";
 import * as dt from 'dotenv';
 import {MDBConnection} from "@tsed/mongoose";
 import './middlewares/ErrorHandler'
+import {NotFoundMiddleware} from "./middlewares/ErrorHandler";
 
 const session = require("express-session");
 const MongoDBStore = require('connect-mongodb-session')(session);
@@ -37,7 +38,9 @@ dt.config();
 	},
 	mount: {
 		"/": `${rootDir}/controllers/*`,
-		'/Admin': `${rootDir}/controllers/Home/**`,
+		//'/admin': `${rootDir}/controllers/admin/**/*.ts`,
+		'/admin': `${rootDir}/controllers/admin/**`,
+		'/partner': `${rootDir}/controllers/partner/**`,
 	},
 	httpPort: process.env.PORT,
 	viewsDir: `${rootDir}/views`,
@@ -102,5 +105,9 @@ export class Server extends ServerLoader {
 
 	$onServerInitError(error: any): any {
 		console.log(error);
+	}
+
+	public $afterRoutesInit() {
+		this.use(NotFoundMiddleware);
 	}
 }
