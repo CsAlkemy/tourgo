@@ -1,10 +1,7 @@
 mixin footer
+	#remoteModal1.modal.fade.modalToClose(role="dialog" data-backdrop="static" data-keyboard="false")
+	#remoteModal2.modal.fade.modalToClose(role="dialog" style="z-index: 99999; background: rgba(1,1,1,.5);")
 
-	script(type="text/javascript" src="/assets/theme/js/jquery-3.4.1.min.js")
-	script(type="text/javascript" src="/assets/theme/js/popper.min.js")
-	script(type="text/javascript" src="/assets/theme/js/bootstrap.min.js")
-	script(type="text/javascript" src="/assets/theme/js/mdb.min.js")
-	script(type="text/javascript" src="/assets/theme/js/modules/wow.js")
-	script(type="text/javascript").
-			// Animations initialization
-			new WOW().init();
+	script(src="/assets/theme/js/jquery.min.js")
+	script(src="/assets/theme/js/material-bootstrap.min.js")
+	script(src="/assets/theme/js/fontawesome.min.js")

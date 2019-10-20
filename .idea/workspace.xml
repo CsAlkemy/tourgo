@@ -1,39 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="438c8205-d4bd-4f3b-9ae4-fb9ac1b23967" name="Default Changelist" comment="landing and login">
-      <change afterPath="$PROJECT_DIR$/public/assets/theme/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/SessionData.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/admin/Dashboard.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/partner/Dashboard.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/admin/index.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/layout/navbar.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/partner/dashboard/index.pug" afterDir="false" />
+    <list default="true" id="438c8205-d4bd-4f3b-9ae4-fb9ac1b23967" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/assets/theme/css/fontawesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/theme/css/material-bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/theme/js/fontawesome.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/theme/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/theme/js/material-bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/tourgo/images/home.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/tourgo/images/home.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/tourgo/images/last.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/tourgo/images/last.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/tourgo/images/top_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/tourgo/images/top_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/tourgo/images/top_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/tourgo/images/top_2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/tourgo/images/top_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/tourgo/images/top_3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/tourgo/images/top_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/tourgo/images/top_4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/icons/themify-icons/ie7/ie7.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/icons/themify-icons/ie7/ie7.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/landing/main_styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/landing/main_styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/Config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/Config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/Dashboard.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/theme/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/theme/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/cheque/advsearch.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/cheque/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/page/purchase/addPurchase.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/page/purchase/editPurchase.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/page/quote/addQuote.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/page/sale/new.addSale.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controllers/Home.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/Home.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/middlewares/ErrorHandler.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/middlewares/ErrorHandler.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/middlewares/SessionCheck.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/middlewares/SessionCheck.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/User.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/User.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/home/apply.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/home/apply.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/home/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/home/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/home/login.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/home/login.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/admin/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/admin/index.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/layout/footer.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/layout/footer.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/layout/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/layout/header.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/layout/layout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/layout/layout.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/layout/navbar.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/navbar.pug" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,18 +53,18 @@
     <property name="ts.external.directory.path" value="C:\Users\csalk\WebstormProjects\tourgo\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\csalk\WebstormProjects\tourgo\src\views\admin" />
-      <recent name="C:\Users\csalk\WebstormProjects\tourgo\src\views\layout" />
-      <recent name="C:\Users\csalk\WebstormProjects\tourgo\public\assets\theme" />
-      <recent name="C:\Users\csalk\WebstormProjects\tourgo\src\views\partner\dashboard" />
-      <recent name="C:\Users\csalk\WebstormProjects\tourgo\src\controllers\admin" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\csalk\WebstormProjects\tourgo\src\views\partner\dashboard" />
       <recent name="C:\Users\csalk\WebstormProjects\tourgo\public\plugins\bootstrap\js" />
       <recent name="C:\Users\csalk\WebstormProjects\tourgo\public\plugins\owl.carousel" />
       <recent name="C:\Users\csalk\WebstormProjects\tourgo\public\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\csalk\WebstormProjects\tourgo\src\views" />
+      <recent name="C:\Users\csalk\WebstormProjects\tourgo\src\views\admin" />
+      <recent name="C:\Users\csalk\WebstormProjects\tourgo\src\views\layout" />
+      <recent name="C:\Users\csalk\WebstormProjects\tourgo\public\assets\theme" />
+      <recent name="C:\Users\csalk\WebstormProjects\tourgo\src\views\partner\dashboard" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -130,6 +119,13 @@
       <workItem from="1570882461330" duration="42000" />
       <workItem from="1570882771492" duration="14000" />
       <workItem from="1570893882370" duration="6487000" />
+      <workItem from="1570933322935" duration="62000" />
+      <workItem from="1571034807524" duration="856000" />
+      <workItem from="1571043940111" duration="4000" />
+      <workItem from="1571070607794" duration="4456000" />
+      <workItem from="1571448393981" duration="2992000" />
+      <workItem from="1571537698975" duration="8329000" />
+      <workItem from="1571550947598" duration="112000" />
     </task>
     <task id="LOCAL-00001" summary="commit working !">
       <created>1570430815383</created>
@@ -152,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570604179807</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Rumman">
+      <created>1570933356590</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1570933356590</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +179,7 @@
     <MESSAGE value="commit working !" />
     <MESSAGE value="commit working 2" />
     <MESSAGE value="landing and login" />
-    <option name="LAST_COMMIT_MESSAGE" value="landing and login" />
+    <MESSAGE value="Rumman" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rumman" />
   </component>
 </project>

@@ -1,4 +1,12 @@
 doctype html
-html(lang='eng')
+html(lang='en')
 	include header
 	+header
+	body
+		include ../navbar
+		+navbar
+		.footer-line
+			| &copy; !{new Date().getFullYear()} Tourgo &nbsp;
+			a(target='__blank' href='https://sites.google.com/view/csalkemy') Alkemy
+		include footer
+		+footer

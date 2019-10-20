@@ -87,8 +87,27 @@ export class Home extends BaseController {
 	}
 
 
+	@Get("/logout")
+	@UseBefore(ifNotLoggedIn)
+	logout(@Req() req: Req, @Res() res: Res) {
+		req.session.destroy((err) => {
+			if (err) {
+				console.log(err);
+			}
+		});
+		let notification: Notification = {
+			message: "You have successfully sign out",
+			type: NotificationType.SUCCESS,
+			title: "Logout Success!"
+		};
+		this.config.notification = new Array<Notification>();
+		this.config.notification.push(notification);
+		return res.redirect('/login');
+	}
+
 	@Get("/admin-apply")
 	@Post("/admin-apply")
+	@UseBefore(ifLoggedIn)
 	async apply(@Res() res: Res, @Req() req: Req) {
 		if (req.method == 'POST') {
 			let {company, firstName, lastName, email, password} = req.body;
@@ -112,23 +131,5 @@ export class Home extends BaseController {
 			this.config.render = "apply";
 			await this.render(req, res);
 		}
-	}
-
-	@Get("/logout")
-	@UseBefore(ifNotLoggedIn)
-	logout(@Req() req: Req, @Res() res: Res) {
-		req.session.destroy((err) => {
-			if (err) {
-				console.log(err);
-			}
-		});
-		let notification: Notification = {
-			message: "You have successfully sign out",
-			type: NotificationType.SUCCESS,
-			title: "Logout Success!"
-		};
-		this.config.notification = new Array<Notification>();
-		this.config.notification.push(notification);
-		return res.redirect('/login');
 	}
 }

@@ -1,0 +1,81 @@
+mixin navbar
+	.content
+		nav.navbar.navbar-expand.navbar-dark.bg-primary
+			a.navbar-icon.waves-effect.waves-light.mr-3.d-md-none(data-toggle="sidebar" data-target="#sidebar" href="javascript:;")
+				i.material-icons menu
+			span.navbar-text.font-26(style="font-style: normal;") Tourgo
+			#navbarNav.collapse.navbar-collapse
+				.ml-auto
+					a.navbar-icon.waves-effect.waves-light(href="javascript:;" data-toggle="tooltip" title="Navbar icon")
+						i.material-icons search
+					a.navbar-icon.waves-effect.waves-light(href="javascript:;" data-toggle="tooltip" title="Navbar icon")
+						i.material-icons notifications
+					a.navbar-icon.waves-effect.waves-light(href="javascript:;" data-toggle="tooltip" title="Navbar icon")
+						i.material-icons more_vert
+		.container-fluid(style="padding: 30px 20px")
+			nav(aria-label="breadcrumb")
+				ol.breadcrumb(style="font-style: normal;")
+					li.breadcrumb-item
+						a(href="#") Home
+					li.breadcrumb-item
+						a(href="#") Library
+					li.breadcrumb-item.active(aria-current="page") Data
+	#sidebar.sidenav.sidenav-fixed.expand-md
+		.sidenav-header
+			.font-18
+				a.font-weight-strong(href="javascript:;")
+					| Welcome
+					br.font-10
+					| Alkemy Hossain
+		.divider
+		ul.collapsible.collapsible-accordion
+			li.text-white
+				a.waves-effect(href="#")
+					i.fa-shipping-fast
+					| Dashboard
+			li
+				a.collapsible-header(href="#")
+					| Hotels
+					i.material-icons.rotate-icon keyboard_arrow_down
+				.collapsible-body
+					ul
+						li
+							a.waves-effect(href="#") All hotels
+						li
+							a.waves-effect(href="#") Add new hotel
+						li
+							a.waves-effect(href="#") Hotel Category
+			li
+				a.collapsible-header(href="#")
+					| Rooms
+					i.material-icons.rotate-icon keyboard_arrow_down
+				.collapsible-body
+					ul
+						li
+							a.waves-effect(href="#") All Rooms
+						li
+							a.waves-effect(href="#") Add new room
+						li
+							a.waves-effect(href="#") Room Category
+						li
+							a.waves-effect(href="#") Facilities
+			li
+				a.collapsible-header(href="#")
+					|Trip
+					i.material-icons.rotate-icon keyboard_arrow_down
+				.collapsible-body
+					ul
+						li
+							a.waves-effect(href="#") Trips
+						li
+							a(href="#") Create Trips
+			li
+				a.subheader(href="javascript:;") Subheader
+			li
+				a.waves-effect(href="#") Link With Waves
+	.contentBody
+		block content
+	script.
+		window.onload = function () {
+			$('[data-toggle="tooltip"]').tooltip();
+		};
