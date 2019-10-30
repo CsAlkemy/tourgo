@@ -1,11 +1,11 @@
-import {Controller, Get, Post, Req, Res, Session, Use, UseAfter, UseBefore} from "@tsed/common";
+import {Controller, Get, Post, Req, Res, Session, UseBefore} from "@tsed/common";
 import BaseController from "../Core/BaseController";
 import {Mongo} from "../services/Mongo";
 import {User} from "../models/User";
 import {Notification, NotificationType} from "../config/Notification";
 import {Data} from "../config/SessionData";
 import {UserType} from "../config/Config";
-import {ifLoggedIn, ifNotLoggedIn, ifNotSystem, ifNotUser} from "../middlewares/SessionCheck";
+import {ifLoggedIn, ifNotLoggedIn} from "../middlewares/SessionCheck";
 
 const bcrypt = require("bcrypt");
 
@@ -40,6 +40,10 @@ export class Home extends BaseController {
 					data.user = User;
 					data.isAdmin = User.isAdmin;
 					req.session.user = data;
+					console.log(User.userType);
+					console.log(User.isAdmin);
+					console.log(User.email);
+					console.log(User.password);
 					let user = await this.mongo.UserService.findById(User._id);
 					data.ip = req.connection.remoteAddress;
 					await user.save();
@@ -57,8 +61,8 @@ export class Home extends BaseController {
 					}
 					if (User.userType === UserType.ADMIN) {
 						return res.redirect("/admin/dashboard");
-					} else {
-						return res.redirect("/partner/dashboard");
+					}else {
+						return res.redirect("/employee/dashboard");
 					}
 				} else {
 					let notification: Notification = {

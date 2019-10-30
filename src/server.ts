@@ -40,7 +40,7 @@ dt.config();
 		"/": `${rootDir}/controllers/*`,
 		//'/admin': `${rootDir}/controllers/admin/**/*.ts`,
 		'/admin': `${rootDir}/controllers/admin/**`,
-		'/partner': `${rootDir}/controllers/partner/**`,
+		'/employee': `${rootDir}/controllers/employee/**`,
 	},
 	httpPort: process.env.PORT,
 	viewsDir: `${rootDir}/views`,

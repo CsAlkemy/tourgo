@@ -25,6 +25,7 @@ export default class BaseController {
 
 	public async render(req: Req, res: Res) {
 		this.config.data["baseUrl"] = process.env.baseUrl;
+		this.config.data["__session"] = req.session.user;
 		this.config.data['notifications'] = this.config.notification;
 		this.config.notification = new Array<Notification>();
 		this.config.data["__breadCrumb"] = undefined;

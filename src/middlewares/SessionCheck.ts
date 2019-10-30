@@ -43,7 +43,7 @@ export class ifLoggedIn implements IMiddleware {
 			if (user.isAdmin) {
 				return res.redirect("/admin/dashboard");
 			} else {
-				return res.redirect("/partner/dashboard");
+				return res.redirect("/employee/dashboard");
 			}
 		}
 	}
@@ -62,17 +62,27 @@ export class ifNotLoggedIn implements IMiddleware {
 //* Use in user controller
 
 @Middleware()
-export class ifNotUser implements IMiddleware {
+export class ifNotAdmin implements IMiddleware {
+	public async use(@Req() req: Req, @Res() res: Res, @Session("user") user: Data) {
+		if (user) {
+			if (!user.isAdmin) {
+				req.session.oldRequest = req.originalUrl;
+				req.session.notLoggedIn = true;
+				return res.redirect("/login");
+			}
+		}
+	}
+}
+
+@Middleware()
+export class ifNotEmployee implements IMiddleware {
 	public async use(@Req() req: Req, @Res() res: Res, @Session("user") user: Data) {
 		if (user) {
 			if (user.isAdmin) {
-				req.session.noSystemAccess = true;
+				req.session.oldRequest = req.originalUrl;
+				req.session.notLoggedIn = true;
 				return res.redirect("/login");
 			}
-		} else {
-			req.session.oldRequest = req.originalUrl;
-			req.session.notLoggedIn = true;
-			return res.redirect("/apply");
 		}
 	}
 }
@@ -86,7 +96,7 @@ export class ifNotSystem implements IMiddleware {
 		if (user) {
 			if (!user.isAdmin) {
 				req.session.noUserAccess = true;
-				return res.redirect("/partner/dashboard");
+				return res.redirect("/employee/dashboard");
 			}
 		} else {
 			req.session.oldRequest = req.originalUrl;

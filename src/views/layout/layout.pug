@@ -3,10 +3,14 @@ html(lang='en')
 	include header
 	+header
 	body
-		include ../navbar
+		if __session.isAdmin
+			include ../admin/navbar
+		else
+			include ../employee/navbar
 		+navbar
-		.footer-line
-			| &copy; !{new Date().getFullYear()} Tourgo &nbsp;
-			a(target='__blank' href='https://sites.google.com/view/csalkemy') Alkemy
+		.footer-line.ml-3.fixed-bottom
+			br
+			//| &copy; !{new Date().getFullYear()} ;
+			//a(target='__blank' href='https://sites.google.com/view/csalkemy')
 		include footer
 		+footer

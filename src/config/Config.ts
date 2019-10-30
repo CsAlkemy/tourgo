@@ -60,7 +60,7 @@ export class CustomField {
 }
 export enum UserType {
 	ADMIN,
-	PARTNER,
+	EMPLOYEE,
 	USER
 }
 export namespace BreadCrumb {

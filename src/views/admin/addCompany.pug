@@ -1,0 +1,26 @@
+extends ../layout/layout
+
+block content
+	.card.card-no-border.mb-5
+		.card-header.text-inverse.text-white
+			| Add Partner
+		.card-body
+			form(action=makeUrl="/admin/addCompany" method="POST" )
+				.form-row
+					.form-group.col-md-6
+						label(for="companyName") Company Name
+						input#companyName.form-control(type="text" name="name" required placeholder="Company Name")
+
+					.form-group.col-md-6
+						label(for="owner") Owner Name
+						input#owner.form-control(type="text" name="owner" placeholder="Owner Name")
+				.form-row
+					.form-group.col-md-6
+						label(for="inputEmail4") Email
+						input#inputEmail4.form-control(type="email" name="email" required placeholder="Email")
+					.form-group.col-md-6
+						label(for="phone") Phone
+						input#phone.form-control(type="phone" name="phone" placeholder="Phone")
+				button.btn.btn-primary(type="submit") Submit
+
+
